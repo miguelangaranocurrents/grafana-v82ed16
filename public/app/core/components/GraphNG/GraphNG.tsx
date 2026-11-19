@@ -199,7 +199,6 @@ export class GraphNG extends Component<GraphNGProps, GraphNGState> {
         alignedFrameFinal = {
           ...alignedFrameFinal,
           fields: nonHiddenFields,
-          length: nonHiddenFields.length,
         };
       }
 
